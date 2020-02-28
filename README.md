@@ -8,7 +8,8 @@ An in-app feature system
 
 Definitions: 
 
-##Requirement##
+##Requirements
+
 A *requirement* is the natural language description of a behavior that the app should have. It is numbered and can have child requirements
 
 
