@@ -6,9 +6,15 @@
  ******************************************************************************/
 "use strict"
 /******************************************************************************/
+require('module-alias/register')
 
 
+const app = {}
 
-
-
-
+//add hello world feature to the app
+require('@features').addFeatureSystem(app)
+app.addFeature({
+    label: 'helloWorld', 
+    method: x => console.log('hello world')
+})
+app.helloWorld()
